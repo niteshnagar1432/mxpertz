@@ -1,0 +1,97 @@
+:root {
+  --primary-color: linear-gradient(93deg, #761de8 -2.94%, #29bdec 56.14%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #05071E !important;
+}
+
+.primary-bg{
+  background: var(--primary-color) !important;
+}
+
+.primary-color{
+  color: var(--primary-color) !important;
+}
+
+.home-section-1 {
+  width: 100%;
+  height: 40vh;
+  /* background-color: red; */
+}
+
+.btn-custom-green{
+  background-color: rgb(3, 245, 59);
+}
+
+.color-custom-green{
+  color: rgb(3, 245, 59);
+}
+
+.color-custom-violet{
+  color: #761de8;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.home-section-2{
+  width: 100%;
+  height: 20vh;
+  /* background-color: red; */
+}
+
+.colorBlue {
+  background: linear-gradient(92.77deg, #761de8 -2.94%, #29bdec 56.14%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #0000;
+}
+
+.blur-section{
+  width: 100%;
+  height: auto;
+  background-color: rgba(240, 248, 255, 0.116);
+  backdrop-filter: blur(54px);
+}
+
+.blur-button{
+  background-color: rgba(240, 248, 255, 0.183);
+  backdrop-filter: blur(54px);
+}
+
+.card-box-bg{
+  background-color: rgba(240, 248, 255, 0.21);
+}
+
+.border-blue{
+  border: 1.5px solid blue;
+}
+
+.border-2-dotted{
+  border: 1.5px dashed blue;
+}
+
+.my-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 157, 255, 0.26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.my-icon:hover{
+  background: var(--primary-color) !important;
+}
